@@ -1,0 +1,24 @@
+    // Smooth Scroll con js
+    document.querySelectorAll('.navbar .nav-link').forEach( enlace => {
+        enlace.addEventListener('click', (e) => {
+            e.preventDefault()
+            // leemos el enlace 
+            // console.log(enlace.getAttribute('href'));
+            document.querySelector(enlace.getAttribute('href')).scrollIntoView({
+                    behavior : 'smooth',
+                    block:'start'
+            })
+            
+        })
+    })
+    
+window.onscroll = (e) => {
+    const scroll = window.scrollY;
+    // console.log(scroll);
+    let cabecera = document.querySelector('#navegacion-principal')
+    if (scroll > 690){
+        cabecera.classList.add('bg-info');
+} else {
+    cabecera.classList.remove('bg-info');
+}
+}

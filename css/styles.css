@@ -1,0 +1,60 @@
+body{
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+}
+.bg-info{
+    background-color: rgb(74, 201, 201)!important;
+}
+.table td, .table th{
+    padding: .5rem;
+}
+
+.nav-link{
+    color: white;
+    transition: .5s all ease;
+}
+.nav-link:hover{
+    color: #f53756;
+}
+/* VIDEO */
+.embed-responsive{
+    position: relative;
+    background-image: url(../img/bg-pizza.jpg);
+    height: 45rem;
+    background-size: cover;
+}
+.info-pizza{
+    position: absolute;
+    top: 20%;
+    z-index: 100;
+}
+.info-pizza h1{
+    font-size: 3rem;
+    line-height: 6rem;
+    color: white;
+}
+.info-pizza h1 span,
+.info-pizza p{
+    font-weight: 700;
+    box-shadow: -1px 4px 23px 1px rgba(0,0,0,0.75);
+}
+.info-pizza p{
+    font-size: 2rem;
+}
+.info-pizza .text-dark{
+    color: #f53756!important; 
+    font-weight: 700;
+}
+@media (min-width: 992px){
+    .info-pizza{
+        top: 35%;
+    }   
+    .embed-responsive{
+        background-image: unset;
+        height: auto;
+    }
+    .info-pizza h1{
+        font-size: 4rem;
+        line-height: unset
+    }
+}

@@ -1,3 +1,15 @@
+let url =  window.location.href;
+
+let swLocation = '/pizzatime/sw.js'
+
+if( navigator.serviceWorker){
+    if( url.includes('localhost')){
+        swLocation =    '/sw.js'
+    } 
+        navigator.serviceWorker.register(swLocation)
+    }
+
+    
     // Smooth Scroll con js
     document.querySelectorAll('.navbar .nav-link').forEach( enlace => {
         enlace.addEventListener('click', (e) => {

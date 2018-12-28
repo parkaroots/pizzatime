@@ -19,26 +19,44 @@
     <title>Pizzatime</title>
 </head>
 <body data-spy="scroll" data-target="#navegacion-principal" data-offset="50">
+
     <nav class="navbar fixed-top navbar-light bg-transparent" id="navegacion-principal">
         <div class="container justify-content-center   justify-content-md-between ">
             <img src="img/72x72.png" class="img-fluid   d-none   d-md-block" alt="">
             <ul class="nav nav-pills   ">
-                <li class="nav-item   "><a class="nav-link   mt-0  p-1" href="#menu">Menu</a></li>
-                <li class="nav-item   "><a class="nav-link   mt-0   p-1" href="#paquetes">Paquetes Infantiles</a></li>
-                <li class="nav-item   "><a class="nav-link   mt-0   p-1" href="#ubicacion">Ubicacion</a></li>
+                <li class="nav-item   "><a class="nav-link   mt-0  " href="#menu">Menu</a></li>
+                <li class="nav-item   "><a class="nav-link   mt-0   " href="#paquetes">Paquetes Infantiles</a></li>
+                <li class="nav-item   "><a class="nav-link   mt-0   " href="#ubicacion">Ubicacion</a></li>
             </ul>
 
         </div>
-    </nav>
+    </nav><!--navegacion-->
+
     <div class="embed-responsive embed-responsive-16by9">
         <video src="video/Pizzatime.mp4" class="embed-responsive-item d-none d-lg-block" muted autoplay loop ></video>
         <div class="container">
-            <div class="info-pizza">
+            <div class="info-pizza   my-2">
                 <h1>Lo mejor de <span class="bg-light   p-4   text-dark">Nosotros</span></h1>
-                <h2 class="p-3   text-dark  bg-light  d-inline-block">A solo <span>30 Min</span></h2>
+                <h2 class="p-4  my-4   text-dark  bg-light  d-inline-block">A solo <span>30 Min</span></h2>
             </div><!--info-pizza-->
         </div><!--container-->
     </div><!--video-->
+    
+        <div class="container   comentarios">
+            <h2 class="text-center   text-uppercase   my-5  ">Algunos comentarios</h2>
+            <div class="row   ">
+                <div class=" col-sm-12  col-md-6">
+                    <img src="img/comentario1.png"  class="" alt="">
+                    <img src="img/comentario2.png"  class="" alt="">
+                    <img src="img/comentario3.png"  class="" alt="">
+                </div>
+                <div class=" col-sm-12  col-md-6  ">
+                    <img src="img/comentario4.png"  class="" alt="">
+                    <img src="img/comentario5.png"  class="" alt="">
+                    <img src="img/comentario6.png"  class="" alt="">
+                </div>
+            </div>
+        </div>
 
     <div class="productos">
         <div class="container  ">
@@ -76,7 +94,7 @@
           <div class="col-md-7   my-3">
               <img src="img/menu1.png" class="img-fluid" alt="">
           </div><!--menu1-->
-          <div class="col-md-7   py-3">
+          <div class="col-md-7   my-3">
               <img src="img/menu2.png" class="img-fluid" alt="">
           </div><!--menu2-->
             <div class="col-md-5  d-flex  align-items-center  py-3">
@@ -88,13 +106,13 @@
                 <div class="col-md-5  d-flex  align-items-center">
                     <img src="img/baguette2.jpg" class="img-fluid" alt="">
                 </div>
-                <div class="col-md-7   my-5">
+                <div class="col-md-7   my-3">
                     <img src="img/baguette.png" class="img-fluid" alt="">
                 </div>
-                <div class="col-md-7   order-sm-2   order-md-0">
+                <div class="col-md-7   my-3 order-2 order-md-0">
                     <img src="img/burguer.png" class="img-fluid  " alt="">
                 </div>
-                <div class="col-md-5  d-flex  align-items-center  order-sm-1   order-md-0">
+                <div class="col-md-5  d-flex  align-items-center  order-1  order-md-0">
                         <img src="img/burguer.jpeg" class="img-fluid   " alt="">
                 </div>
             </div><!--row-->
@@ -169,7 +187,9 @@
                 </div>
             </div>
     </div><!--ubicacion-->
-    
+    <footer class="footer      text-center   bg-info   py-1">
+        <p>  #Pizzatime <i class="fa fa-heart   corazon   mr-1"></i> <span class="fecha">Octubre - 2016</span></p>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

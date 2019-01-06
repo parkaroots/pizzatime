@@ -1,11 +1,11 @@
 {
-    "short_name" : "Pizzatime",
-    "name" : "Pizzatime  | Cosamaloapan",
-    "start_url" : "index.html",
-    "background_color" : "#f53756",
-    "display" : "standalone",
-    "orientation" : "portrait",
-    "theme_color" : "rgb(74, 201, 201)",
+    "short_name": "Pizzatime",
+    "name": "Pizzatime  | Cosamaloapan",
+    "start_url": "index.html",
+    "background_color": "#f8f8faba",
+    "display": "standalone",
+    "orientation": "portrait",
+    "theme_color": "#c03249",
     "icons": [
         {
             "src": "img/72x72.png",
@@ -18,37 +18,37 @@
             "sizes": "96x96"
         },
         {
-            "src": "img/128x128.png",            
+            "src": "img/128x128.png",
             "type": "image/png",
             "sizes": "128x128"
         },
         {
-            "src": "img/144x144.png",            
+            "src": "img/144x144.png",
             "type": "image/png",
             "sizes": "144x144"
         },
         {
-            "src": "img/152x152.png",            
+            "src": "img/152x152.png",
             "type": "image/png",
             "sizes": "152x152"
         },
         {
-            "src": "img/192x192.png",            
+            "src": "img/192x192.png",
             "type": "image/png",
             "sizes": "192x192"
         },
         {
-            "src": "img/384x384.png",            
+            "src": "img/384x384.png",
             "type": "image/png",
             "sizes": "384x384"
         },
         {
-            "src": "img/512x512.png",            
+            "src": "img/512x512.png",
             "type": "image/png",
             "sizes": "512x512"
         },
         {
-            "src": "img/1024x1024.png",            
+            "src": "img/1024x1024.png",
             "type": "image/png",
             "sizes": "1024x1024"
         }

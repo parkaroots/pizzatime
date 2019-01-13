@@ -3,13 +3,31 @@ body{
     font-family: 'Oswald', sans-serif;
 }
 .bg-info{
-    background-color: rgb(74, 201, 201)!important;
+    background-color: rgb(238, 218, 223)!important;
+    
+}
+.bg-danger{
+    background-color: rgb(107, 37, 54)!important;
+    padding: .5rem;
+}
+.bg-dark{
+    background-color: rgb(224, 0, 45)!important;    
+}
+@media (min-width:992px){
+    .bg-danger{
+        background-color: rgb(107, 37, 54)!important;
+        -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    }
+
 }
 
+/* rayon y libertar atras de la beuregard , casa rosada! */
+.pro
 .nav-link{
     color: white;
     transition: .5s all ease;
-    padding: .6rem;
+    /* padding: .6rem; */
     font-size: 1rem;
 }
 .nav-link:hover{
@@ -57,7 +75,32 @@ body{
         line-height: unset
     }
 }
-/* comentarios */
+.fecha{
+    font-size: 1.25rem;
+}
+.rd-sociales{
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+/* productos */
+@media (min-width: 992px){
+    .productos-text{
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+    .fecha{
+    font-size: 3rem;
+    }
+
+}
+.polig {
+    -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%)
+}
+.sorteo img{
+-webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%)
+}
 
 .footer{
     font-size: 1.5rem;

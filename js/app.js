@@ -37,7 +37,7 @@ window.onscroll = (e) => {
 }
 
 $(document).ready(function () {
-    $('#fecha').countdown('2019/01/18', function (e) {
+    $('#fecha').countdown('2019/01/18 17:00:00', function (e) {
         // console.log(e);
         $(this).html(e.strftime(' <span> %D</span> Dias <span>%H</span> Horas <span>%M</span> Minutos <span>%S</span> Segundos'));
     });

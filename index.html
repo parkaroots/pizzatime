@@ -196,7 +196,7 @@
         </div>
     </div><!--paquetes-->
     
-        <div id="ubicacion">
+    <div id="ubicacion">
             <div class="container  py-5 ">
                 <h2 class="text-center   text-uppercase   text-info my-4">Direccion</h2>
                 <div class="row   align-items-center">
@@ -211,7 +211,37 @@
                         <h5>Cosamaloapan, Ver.</h5>
                     </div>
                 </div>
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-6">
+
+            <form method="POST" action="https://formspree.io/fidelzharate@gmail.com" class="Form">
+            <div class="form-group">
+                <legend class="u-message">Envíame tus comentarios</legend>
+                <label for="formGroupExampleInput">Tu Nombre</label>
+                <input type="text" name="name" class="form-control" placeholder="Escribe tu nombre" title="tu nombre" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+                required>
             </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput">Tu Correo</label>
+                <input type="email" name="email" class="form-control" placeholder="Escribe tu email" title="tu email" pattern="^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$"
+                required>
+            </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput">Tu Asunto</label>                
+                <input type="text" name="subject" class="form-control" title="asunto a tratar" placeholder="Asunto a tratar" required>
+            </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput">Tu comentario</label>                
+                <textarea name="comments" class="form-control" title="tus comentarios" placeholder="Escribe tus comentarios" required></textarea>
+            </div>
+            <div class="form-group">
+                <input type="submit" class="form-control bg-dark text-light" value="Enviar">
+            </div>
+        </form>
+    </div><!--col-md-6-->
+    </div><!--row-->
+            </div><!--contenedor-->
+        
     </div><!--ubicacion-->
     <footer class="footer      text-center   bg-info   py-1">
         <p>  #Pizzatime <i class="fa fa-heart   corazon   mr-1"></i> <span class="fecha">Octubre - 2016</span></p>

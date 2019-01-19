@@ -3,7 +3,7 @@ body{
     font-family: 'Oswald', sans-serif;
 }
 .bg-info{
-    background-color: rgb(238, 218, 223)!important;
+    background-color: rgb(42, 36, 37)!important;
     
 }
 .bg-danger{
@@ -25,13 +25,13 @@ body{
     width: 100%;
 }
 /* rayon y libertar atras de la beuregard , casa rosada! */
-.pro
 .nav-link{
     color: white;
     transition: .5s all ease;
     /* padding: .6rem; */
     font-size: 1rem;
 }
+
 .nav-link:hover{
     color: #f53756;
 }

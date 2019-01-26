@@ -85,6 +85,12 @@ body{
     margin-left: 1rem;
 }
 /* productos */
+.productos{
+    background-image: url('../img/pexels-photo-1653877.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30rem;
+}
 @media (min-width: 992px){
     .productos-text{
         font-size: 1.8rem;
@@ -103,7 +109,7 @@ body{
 -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
     clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%)
 }
-
+/* footer */
 .footer{
     font-size: 1.5rem;
     font-weight: 900;

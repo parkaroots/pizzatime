@@ -93,7 +93,7 @@ body{
 }
 @media (min-width: 992px){
     .productos-text{
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         font-weight: 700;
     }
     .fecha{
